@@ -514,7 +514,7 @@
    -->
 	
    <field name="msg_title" type="textComplex" indexed="true" stored="true" /> 
-   <field name="msg_content" type="textComplex" indexed="true" stored="true" /> 
+   <field name="msg_content" type="textComplex" indexed="true" stored="true" multiValued="true" /> 
    <!--provider many field search-->
    <field name="msg_all" type="textComplex" indexed="true" stored="false" multiValued="true" /> 
 
